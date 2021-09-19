@@ -1,0 +1,139 @@
+html{
+    background-color: burlywood;
+}
+body{
+    font-family: Tahoma, sans-serif ;
+    font-size: 87%;
+}
+
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+    
+}
+header{
+    padding-top: 20px;
+    color: rgb(16, 17, 13);
+    background-color: #868686;
+    
+
+}
+header h1{
+    margin:0;
+    font-weight: normal;
+    font-size: 165%;
+    
+}
+header p{
+    margin:0;
+    position: fixed;
+}
+.content-area div{
+    border-top: 3px solid burlywood;
+    border-bottom: 3px solid burlywood;
+}
+.main-area{
+    width: 600px;
+    float: left;
+    margin-right: auto;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.ui-menu ul{
+    margin:0;
+    padding: 0;
+}
+.ui-menu li{
+    float:left;
+    list-style: none;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.ui-menu a{
+    display: block;
+    width:50px;
+    height: 50px;
+    background-image: url(../images/sprites.png);
+    text-indent: -9999px;
+}
+.ui-home a:hover{background-position: -50px 0;}
+.ui-profile a{background-position: 0 -50px;}
+.ui-profile a:hover{background-position: -50px -50px;  } 
+
+.ui-settings a{background-position: 0 -100px;}
+.ui-settings a:hover{background-position: -50px -100px;}
+.birds{
+    background-color: #c2bbb1;
+    background-image: url(../images/bird.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding:100px 0;
+
+}
+.side-bar{
+    width:300px;
+    float:left;
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top right, burlywood, #FFF); 
+    font-size: 85%;
+}
+.site-nav{
+    padding-top: 20px;
+}
+.site-nav ul{
+    padding: 0;
+    margin: 0;
+}
+.site-nav li{
+    margin-right: 10px;
+    list-style: none;
+    float:left;
+    
+}
+.site-nav a{
+    display: block;
+    color:rgb(248, 240, 240);
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 3px solid rgb(83, 79, 74);
+    border-bottom: none;
+    background-color: #868686;
+    transition-property: background-color,color;
+    transition-duration: 2s;
+}
+.site-nav a:hover{
+    background-color: rgb(63, 59, 53);
+}
+
+footer{
+    text-align: center;
+    color: #999;
+    font-size: 84%;
+    padding-bottom: 20px;
+
+}
+
+
+.fix{
+    clear:both;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+
+/*table*/
+
